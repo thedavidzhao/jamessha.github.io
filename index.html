@@ -1,23 +1,49 @@
 ---
+title: Welcome
 layout: default
 ---
 
-<div class="home">
+<body class="loading">
+  <!--<div class="contain-to-grid sticky">
+    <nav class="top-bar" data-topbar role="navigation">
+    </nav>
+  </div>-->
 
-  <h1 class="page-heading">Posts</h1>
+  <div id="preload">
+    <img src="img/test1.jpg">
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <section id="slide-1" class="homeSlide">
+      <div class="bcg"
+        data-anchor-target="#slide-1"
+      >
+        <div class="hsContainer">
+          <div class="hsContent">
+            <div class="row">
+              <h1>Hello!</h1>
+              <p>This should become an awesome site in the near future, but until then you should check out 
+                 <a href="http://jamessha.com">jamessha.com!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <section id="slide-2" class="homeSlide">
+        <div class="bcg">
+          <div class="hsContainer">
+            <div class="hsContent">
+            </div>
+          </div>
+        </div>
+    </section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.1.min.js"><\/script>')</script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/skrollr.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
 
-</div>
+
+
