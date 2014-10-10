@@ -264,6 +264,148 @@ main {
     float: left;
     position: relative;
     top: -10px;
-    left: -20px;
+    left: -15px;
+  }
+
+  .button {
+    margin-left: 15px;
+  }
+
+  .showcase {
+    margin-top: 50px;
+  }
+
+  .pitem {
+    transform: scale(0.75);
+    border:5px solid #0F4D92;
+  }
+
+  .pblurb {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
+
+
+/* Slide 5 Stuff */
+#slide-5{
+  max-height: 550px;
+
+  h1 {
+    color: #666666;
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    padding-left: 0px;
+  }
+
+  p {
+    color: #333333;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 0px;
+  }
+
+  .bcg {
+    background-image: url('../img/berkeley_night.jpg');
+  }
+
+  .row {
+    margin: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  /* Stuff of the side bar */
+  .right-header {
+    min-height: 550px;
+    background: #ffffff;
+    padding-right: 0px;
+  }
+
+  .highlight {
+    min-height: 550px;
+    background: #27408b;
+  }
+
+  .right-icon {
+    padding: 0px;
+    float: left;
+    position: relative;
+    top: -20px;
+  }
+
+  /* Stuff of the content */
+  img {
+    transform: scale(0.5);
+    padding-top: 0px;
+  }
+
+  .publications {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .publication {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+    padding-left: 20px;
+  }
+}
+
+
+/* Slide 6 Stuff */
+#slide-6{
+  max-height: 550px;
+
+  h1 {
+    color: #666666;
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+
+  .bcg {
+    background: #ffffff
+  }
+
+  .row {
+    margin: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  .left-header {
+    min-height: 550px;
+    background: #ffffff;
+    padding: 0px;
+  }
+
+  .highlight {
+    min-height: 550px;
+    background: #ff0000;
+  }
+
+  .header-desc {
+    padding: 0px;
+  }
+
+  img {
+    transform: scale(0.5);
+    padding-top: 0px;
+  }
+
+  .left-icon {
+    padding: 0px;
+    float: left;
+    position: relative;
+    top: -30px;
+    left: -35px;
+  }
+}
+
