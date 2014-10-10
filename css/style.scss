@@ -157,7 +157,14 @@ main {
     margin-top: 75px;
     margin-bottom: 0px;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 10px;
+  }
+
+  p {
+    color: #222222;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
   }
 
   .bcg {
@@ -171,9 +178,80 @@ main {
     max-width: 100%;
   }
 
+  /* Stuff of the side bar */
   .right-header {
-    min-height: 400px;
-    border-left: 1px solid #b0b0b0;
+    min-height: 550px;
+    background: #ffffff;
+    padding-right: 0px;
+  }
+
+  .highlight {
+    min-height: 550px;
+    background: #ffa500;
+  }
+
+  .right-icon {
+    padding: 0px;
+    float: left;
+    position: relative;
+    top: -10px;
+  }
+
+  /* Stuff of the content */
+  img {
+    transform: scale(0.5);
+    padding-top: 0px;
+  }
+
+  #berkeley-logo {
+    padding-top: 0px;
+  }
+
+  #edu-desc {
+    position: relative;
+    top: -50px;
+    margin-left: 25px;
+  }
+
+
+}
+
+/* Slide 4 Stuff */
+#slide-4{
+  max-height: 550px;
+
+  h1 {
+    color: #666666;
+    text-align: left;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    font-weight: bold;
+  }
+
+  .bcg {
+    background: #ffffff
+  }
+
+  .row {
+    margin: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  .left-header {
+    min-height: 550px;
+    background: #ffffff;
+    padding: 0px;
+  }
+
+  .highlight {
+    min-height: 550px;
+    background: #32cd32;
+  }
+
+  .header-desc {
+    padding: 0px;
   }
 
   img {
@@ -181,10 +259,11 @@ main {
     padding-top: 0px;
   }
 
-  .right-icon {
-    padding: 0px; 
+  .left-icon {
+    padding: 0px;
     float: left;
     position: relative;
     top: -10px;
+    left: -20px;
   }
 }
