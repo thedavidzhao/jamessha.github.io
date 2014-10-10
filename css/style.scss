@@ -8,7 +8,7 @@ h1 {
 }
 
 p {
-  color: #bbbbbb;
+  color: #303030;
   font-size: 15px;
 }
 
@@ -118,6 +118,12 @@ main {
 #slide-2{
   max-height: 550px;
 
+  p {
+    color: #666666;
+    font-size: 15px;
+    text-align: left;
+  }
+
   .bcg {
     background-color: #ffffff;
   }
@@ -146,16 +152,34 @@ main {
   max-height: 550px;
 
   h1 {
-    color: #ffffff;
+    color: #666666;
     text-align: left;
-    margin-top: 35px;
+    margin-top: 75px;
+    margin-bottom: 0px;
+    font-weight: bold;
   }
 
   .bcg {
-    background-image: url('../img/berkeley_night.jpg');
+    background-image: url('../img/berkeley_clouds.jpg');
   }
 
-  .hsContainer {
-    background-color: rgba(0, 0, 0, 0.8);
+  .row {
+    margin: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    max-width: 100%;
+  }
+
+  img {
+    transform: scale(0.5);
+    padding-top: 0px;
+  }
+
+  .right-icon {
+    padding: 0px; 
+    float: left;
+    position: relative;
+    left: -50px;
+    top: -10px;
   }
 }
