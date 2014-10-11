@@ -116,7 +116,7 @@ main {
 
 /* Slide 2 Stuff */
 #slide-2{
-  max-height: 550px;
+  max-height: 700px;
 
   p {
     color: #666666;
@@ -166,7 +166,7 @@ main {
 
 /* Slide 3 Stuff */
 #slide-3{
-  max-height: 550px;
+  max-height: 700px;
 
   h1 {
     color: #666666;
@@ -198,13 +198,14 @@ main {
 
   /* Stuff of the side bar */
   .right-header {
-    min-height: 550px;
+    min-height: 700px;
     background: #ffffff;
     padding-right: 0px;
+    max-width: 250px;
   }
 
   .highlight {
-    min-height: 550px;
+    min-height: 700px;
     background: #ffa500;
   }
 
@@ -213,6 +214,7 @@ main {
     float: left;
     position: relative;
     top: -10px;
+    left: 10px;
   }
 
   /* Stuff of the content */
@@ -239,7 +241,7 @@ main {
 
 /* Slide 4 Stuff */
 #slide-4{
-  max-height: 550px;
+  max-height: 700px;
 
   h1 {
     color: #666666;
@@ -261,13 +263,14 @@ main {
   }
 
   .left-header {
-    min-height: 550px;
+    min-height: 700px;
     background: #ffffff;
     padding: 0px;
+    max-width: 250px;
   }
 
   .highlight {
-    min-height: 550px;
+    min-height: 700px;
     background: #32cd32;
   }
 
@@ -310,7 +313,7 @@ main {
 
 /* Slide 5 Stuff */
 #slide-5{
-  max-height: 550px;
+  max-height: 700px;
 
   h1 {
     color: #666666;
@@ -353,13 +356,14 @@ main {
 
   /* Stuff of the side bar */
   .right-header {
-    min-height: 550px;
+    min-height: 700px;
     background: #ffffff;
     padding-right: 0px;
+    max-width: 250px;
   }
 
   .highlight {
-    min-height: 550px;
+    min-height: 700px;
     background: #27408b;
   }
 
