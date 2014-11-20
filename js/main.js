@@ -1,5 +1,4 @@
 ( function( $ ) {
-
 	// Setup variables
 	$window = $(window);
 	$slide = $('.homeSlide');
