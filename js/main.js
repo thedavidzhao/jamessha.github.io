@@ -38,7 +38,12 @@
 
     // Refresh Skrollr after resizing our sections
 
-
+    $rheader = $('.right-header');
+    $rheader.height(winH);
+    $lheader = $('.left-header');
+    $lheader.height(winH);
+    $highlight = $('.highlight');
+    $highlight.height(winH);
 	}
 
 } )( jQuery );
