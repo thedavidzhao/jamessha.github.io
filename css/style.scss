@@ -197,24 +197,13 @@ main {
 
   /* Stuff of the side bar */
   .right-header {
-    //min-height: 700px;
     background: #ffffff;
     padding-right: 0px;
     max-width: 250px;
-    //float: right;
   }
 
   .highlight {
-    //min-height: 700px;
     background: #ffa500;
-  }
-
-  .right-icon {
-    padding: 0px;
-    float: left;
-    position: relative;
-    top: -10px;
-    left: 10px;
   }
 
   /* Stuff of the content */
@@ -245,7 +234,7 @@ main {
 
   h1 {
     color: #666666;
-    text-align: left;
+    text-align: center;
     margin-top: 75px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -272,25 +261,9 @@ main {
     background: #32cd32;
   }
 
-  .header-desc {
-    padding: 0px;
-  }
-
   img {
     transform: scale(0.5);
     padding-top: 0px;
-  }
-
-  .left-icon {
-    padding: 0px;
-    float: left;
-    position: relative;
-    top: -10px;
-    left: -30px;
-  }
-
-  .button {
-    margin-left: 7px;
   }
 
   .showcase {
@@ -315,7 +288,7 @@ main {
 
   h1 {
     color: #666666;
-    text-align: left;
+    text-align: center;
     margin-top: 75px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -361,13 +334,6 @@ main {
 
   .highlight {
     background: #27408b;
-  }
-
-  .right-icon {
-    padding: 0px;
-    float: left;
-    position: relative;
-    top: -20px;
   }
 
   /* Stuff of the content */
