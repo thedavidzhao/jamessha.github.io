@@ -165,7 +165,7 @@ main {
 
 /* Slide 3 Stuff */
 #slide-3{
-  max-height: 700px;
+  //max-height: 700px;
 
   h1 {
     color: #666666;
@@ -197,14 +197,15 @@ main {
 
   /* Stuff of the side bar */
   .right-header {
-    min-height: 700px;
+    //min-height: 700px;
     background: #ffffff;
     padding-right: 0px;
     max-width: 250px;
+    //float: right;
   }
 
   .highlight {
-    min-height: 700px;
+    //min-height: 700px;
     background: #ffa500;
   }
 
@@ -262,14 +263,12 @@ main {
   }
 
   .left-header {
-    min-height: 700px;
     background: #ffffff;
     padding: 0px;
     max-width: 250px;
   }
 
   .highlight {
-    min-height: 700px;
     background: #32cd32;
   }
 
@@ -355,14 +354,12 @@ main {
 
   /* Stuff of the side bar */
   .right-header {
-    min-height: 700px;
     background: #ffffff;
     padding-right: 0px;
     max-width: 250px;
   }
 
   .highlight {
-    min-height: 700px;
     background: #27408b;
   }
 
