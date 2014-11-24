@@ -124,6 +124,19 @@ main {
     .icons {
       margin-top: 0px;
     }
+
+    .contact-info {
+      margin-top: 25px;
+    }
+
+    .columns {
+      text-align: center;
+    }
+
+    p {
+      margin-top: 5px;
+      margin-left: 0px;
+    }
   }
 
   #propic {
@@ -135,11 +148,15 @@ main {
   }
 
   #about-blurb {
-    padding-top: 50px;
+    padding-top: 55px;
   }
 
-  .size-72 {
+  .size-1 {
     font-size: 75px;
+  }
+
+  .size-2 {
+    font-size: 24px;
   }
 
   a {
