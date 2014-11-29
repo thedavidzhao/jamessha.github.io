@@ -23,7 +23,6 @@
     var s = skrollr.init();
     s.refresh($('.homeSlide'));
 
-
     // Get window size
     winH = $window.height();
 
@@ -43,6 +42,16 @@
     $lheader.height(winH);
     $highlight = $('.highlight');
     $highlight.height(winH);
+
+    $(".scroller").on("click", function( e ) {
+
+      e.preventDefault();
+
+      $("body, html").animate({ 
+          scrollTop: $( $(this).attr('href') ).offset().top 
+      }, 1000);
+
+    });
 	}
 
 } )( jQuery );
