@@ -23,6 +23,11 @@
     if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
       var s = skrollr.init();
       s.refresh($('.homeSlide'));
+      $(".top-header").remove();
+    } else {
+      $(".left-header").remove();
+      $(".right-header").remove();
+      $(".top-bar").remove();
     }
 
     // Get window size
@@ -48,7 +53,6 @@
     $(".scroller").on("click", function( e ) {
 
       e.preventDefault();
-      e.setScrollTop(0);
 
       $("body, html").animate({ 
           scrollTop: $( $(this).attr('href') ).offset().top 
