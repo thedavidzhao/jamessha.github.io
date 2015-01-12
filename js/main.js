@@ -20,8 +20,10 @@
 	function adjustWindow(){
 
 		// Init Skrollr
-    var s = skrollr.init();
-    s.refresh($('.homeSlide'));
+    if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+      var s = skrollr.init();
+      s.refresh($('.homeSlide'));
+    }
 
     // Get window size
     winH = $window.height();
@@ -46,6 +48,7 @@
     $(".scroller").on("click", function( e ) {
 
       e.preventDefault();
+      e.setScrollTop(0);
 
       $("body, html").animate({ 
           scrollTop: $( $(this).attr('href') ).offset().top 
