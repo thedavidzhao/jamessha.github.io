@@ -234,6 +234,11 @@ main {
   img {
   }
 
+  .sidebar-logo {
+    transform: scale(0.5);
+    padding-top: 0px;
+  }
+
   #berkeley-logo {
     display: inline-block;
     padding-top: 70px;
