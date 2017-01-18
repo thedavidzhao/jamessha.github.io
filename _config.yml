@@ -1,11 +1,11 @@
 # Site settings
 title: James Sha Personal Site
-email: jamessha78@berkeley.edu
+email: jamessha78@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     Pretty self descriptive if you ask me
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://jamessha78.github.io" # the base hostname & protocol for your site
-github_username:  jamessha78
+url: "http://jamessha.github.io" # the base hostname & protocol for your site
+github_username:  jamessha
 
 # Build settings
 markdown: kramdown
