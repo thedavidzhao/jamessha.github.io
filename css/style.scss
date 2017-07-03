@@ -52,6 +52,7 @@ section {
 }
 
 .loaded section{
+  background-color: rgba(255, 255, 255, 1.0);
 	opacity: 1;
 	-webkit-transition: opacity 300ms ease-out;
 	-moz-transition: opacity 300ms ease-out;
@@ -180,7 +181,7 @@ main {
 
 /* Slide 4 Stuff */
 #slide-4{
-  max-height: 700px;
+  padding-top:50px;
 
   h1 {
     color: #666666;
@@ -199,16 +200,6 @@ main {
     margin-right: 0px;
     padding: 0px;
     max-width: 100%;
-  }
-
-  .left-header {
-    background: #ffffff;
-    padding: 0px;
-    max-width: 250px;
-  }
-
-  .highlight {
-    background: $green;
   }
 
   img {
@@ -247,7 +238,8 @@ main {
 
 /* Slide 5 Stuff */
 #slide-5{
-  max-height: 700px;
+  padding-top: 50px;
+  padding-bottom: 150px;
 
   h1 {
     color: #666666;
@@ -286,17 +278,6 @@ main {
     margin-right: 0px;
     padding: 0px;
     max-width: 100%;
-  }
-
-  /* Stuff of the side bar */
-  .right-header {
-    background: #ffffff;
-    padding-right: 0px;
-    max-width: 250px;
-  }
-
-  .highlight {
-    background: $blue;
   }
 
   /* Stuff of the content */
