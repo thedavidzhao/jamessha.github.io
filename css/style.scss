@@ -45,10 +45,6 @@ body {
   background: $white;
 }
 
-.loading {
-	background: url('../img/ico_loading.gif') no-repeat center center;
-}
-
 /* Slides Stuff */
 section {
 	min-width: 960px;
@@ -64,15 +60,6 @@ section {
 
 main {
 	overflow-x: hidden;
-}
-
-#preload {
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 .bcg {
@@ -191,79 +178,6 @@ main {
 }
 
 
-/* Slide 3 Stuff */
-#slide-3{
-  //max-height: 700px;
-
-  h1 {
-    color: #666666;
-    text-align: center;
-    margin-top: 75px;
-    margin-bottom: 0px;
-    font-weight: bold;
-    padding-left: 10px;
-  }
-
-  p {
-    color: #444444;
-    font-size: 15px;
-    text-align: left;
-    margin-bottom: 10px;
-    margin-left: 20px;
-  }
-
-  .bcg {
-    background-image: url('../img/berkeley_clouds_lowres.jpg');
-  }
-
-  .row {
-    margin: 0px;
-    margin-right: 0px;
-    padding: 0px;
-    max-width: 100%;
-  }
-
-  /* Stuff of the side bar */
-  .right-header {
-    background: #ffffff;
-    padding-right: 0px;
-    max-width: 250px;
-  }
-
-  .highlight {
-    background: $orange;
-  }
-
-  /* Stuff of the content */
-  img {
-  }
-
-  .sidebar-logo {
-    transform: scale(0.5);
-    padding-top: 0px;
-  }
-
-  #berkeley-logo {
-    display: inline-block;
-    padding-top: 70px;
-    padding-bottom: 100px;
-    padding-left: 25px;
-  }
-
-  #edu-desc {
-    position: relative;
-    top: -50px;
-  }
-
-  #tech-logo {
-    transform: scale(0.5);
-  }
-
-  .top-header {
-    background: $orange;
-  }
-}
-
 /* Slide 4 Stuff */
 #slide-4{
   max-height: 700px;
@@ -360,7 +274,7 @@ main {
   }
 
   .bcg {
-    background-image: url('../img/berkeley_glade.jpg');
+    background: #ffffff
   }
 
   .hsContainer {
@@ -405,14 +319,14 @@ main {
   }
 
   .publication {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(245,245,245,0.8);
     padding: 10px;
     padding-left: 20px;
     margin-bottom: 20px;
   }
 
   .publication-link:hover {
-    background-color: rgba(255,255,255,1.0);
+    background-color: rgba(250,250,250,1.0);
   }
 
   .top-header {
