@@ -4,7 +4,7 @@
 	$slide = $('.homeSlide');
 	$body = $('body');
 
-    //FadeIn all sections
+  //FadeIn all sections
 	$body.imagesLoaded( function() {
     setTimeout(function() {
 
