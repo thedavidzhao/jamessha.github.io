@@ -173,6 +173,9 @@ main {
   a {
     color: inherit;
   }
+  a:not[href] {
+    cursor: default;
+  }
   a:hover {
     color: #666666;
   }
